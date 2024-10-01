@@ -10,13 +10,15 @@ public class TextHelper {
 	
 	public static boolean isNull(final String string) {
 		return ObjectHelper.isNull(string);
-		//utilizo el metodo de ObjectHelper cuando es null = TRUE
+		
 	}
+	//utilizo el metodo de ObjectHelper cuando es null = TRUE
 	
 	public static String getDefault(final String string,final String defaultValue) {
 		return ObjectHelper.getDefault(string,defaultValue);
-		//utilizo el metodo de ObjectHelper para dar valor por defecto si es NULL el objeto pasandolo por el parametro 
+		 
 	}
+	//utilizo el metodo de ObjectHelper para dar valor por defecto si es NULL el objeto pasandolo por el parametro
 	
 	public static String getDefault(final String string) {
 		return ObjectHelper.getDefault(string,EMPTY);

@@ -1,74 +1,88 @@
 package co.edu.uco.crosscutting.helpers;
 
 public class NumericHelper {
-	
-	private NumericHelper() {
-		
-	}
-	
-	// <>= diferente mayor igual menor igual  rengos con limites
-	// y si es positivo o negarivo    soportar cualquier tipo de numero
-	
-	public static boolean isFloat(final int number1) {
-		return number1 == (float) number1;
-	}
-	public static boolean isFloat(final float number1) {
-		return number1 == (float) number1;
-	}
-	public static float castNumber(final int number1) {
-		return isFloat(number1) ? number1 : (float)number1;
-	}
-	public static float castNumber(final float number1) {
-		return isFloat(number1) ? number1 : (float)number1;
-	}
-	public static String isPositiveOrNegative(final float number1) {
-		if (number1 > 0) {
-            return "El número es positivo";
-        } else if (number1 < 0) {
-            return "El número es negativo";
-        } else {
-            return "El número es cero";
+
+    // Método para validar si una cadena representa un número (double)
+    public static Double parseNumber(final String number) {
+        // Validamos si el string es nulo usando el método de TextHelper
+        if (TextHelper.isNull(number)) {
+            return null;
         }
-	}
-	public static String relationNumber(final float number1,final float number2) {
-		if (number1 > number2) {
-            return "El número "+number1+" es mayor al numero "+number2+" (Son distintos)";
-        } else if (number1 < number2) {
-        	return "El número "+number1+" es menor al numero "+number2+" (Son distintos)";
-        } else if (number1 == number2) {
-        	return "El número "+number1+" es menor al numero "+number2;
-        } else if (number1 != number2) {
-        	return "El número "+number1+" es menor al numero "+number2;
-        } else {
-            return "El número es cero";
+        try {
+            return Double.parseDouble(number); // Convertir a double
+        } catch (NumberFormatException e) {
+        	System.out.println(e+ " <-- No es un numero valido");
+            return null; // Si no es un número válido, retorna null.
         }
+    }
+
+    // Método para validar si un número es mayor que otro
+    public static boolean isGreaterThan(Double num1, Double num2) {
+        if (num1 == null || num2 == null) {
+            return false; // Si uno de los números es nulo, no se puede comparar.
+        }
+        return num1 > num2;
+    }
+
+    // Método para validar si un número es menor que otro
+    public static boolean isLessThan(Double num1, Double num2) {
+        if (num1 == null || num2 == null) {
+            return false;
+        }
+        return num1 < num2;
+    }
+
+    // Método para validar si dos números son iguales
+    public static boolean areEqual(Double num1, Double num2) {
+        if (num1 == null || num2 == null) {
+            return false;
+        }
+        return Double.compare(num1, num2) == 0; // Comparación segura de doubles
+    }
+
+    // Método para validar si dos números son diferentes
+    public static boolean areDifferent(Double num1, Double num2) {
+        return !areEqual(num1, num2);
+    }
+
+    // Método para validar si un número pertenece a un rango
+    public static boolean isInRange(Double number, Double lowerBound, boolean isLowerInclusive, 
+                                    Double upperBound, boolean isUpperInclusive) {
+        if (number == null || lowerBound == null || upperBound == null) {
+            return false;
+        }
+
+        boolean isGreaterThanLower = isLowerInclusive ? number >= lowerBound : number > lowerBound;
+        boolean isLessThanUpper = isUpperInclusive ? number <= upperBound : number < upperBound;
+
+        return isGreaterThanLower && isLessThanUpper;
+    }
+
+    // Método para validar si un número es positivo
+    public static boolean isPositive(Double number) {
+        if (number == null) {
+            return false;
+        }
+        return number > 0;
+    }
+
+    // Método para validar si un número es negativo
+    public static boolean isNegative(Double number) {
+        if (number == null) {
+            return false;
+        }
+        return number < 0;
+    }
+    
+    public static void main(String[] args) {
+    	Double num1 = NumericHelper.parseNumber("4.6");
+        Double num2 = NumericHelper.parseNumber("10.0");
+
+        System.out.println("¿Es mayor "+num1+" que " +num2+" ?: " + NumericHelper.isGreaterThan(num1, num2));
+        System.out.println("¿Son iguales "+num1+" y "+num2+" ?: " + NumericHelper.areEqual(num1, num2));
+        System.out.println("¿Está el número " +num1+" en el rango (4.5, 9.5]?: " + NumericHelper.isInRange(num1, 4.5, false, 9.5, true));
+        System.out.println("¿Es positivo " +num1+" ?: " + NumericHelper.isPositive(num1));
 	}
-	public static boolean isNull(final float number1) {
-		return ObjectHelper.isNull(number1);
-		//utilizo el metodo de ObjectHelper cuando es null = TRUE
-	}
-	
-	public static float getDefaultNumber(final float number1, final float numberDefault) {
-		return isNull(number1) ? numberDefault : number1;
-		// si es True=NUll da defaultObject y si es False=objeto da el objeto
-	}
-	
-	public static Float getDefault(final float number1,final float numberDefault) {
-		return ObjectHelper.getDefault(number1,numberDefault);
-		//utilizo el metodo de ObjectHelper para dar valor por defecto si es NULL el objeto pasandolo por el parametro 
-	}
-	
-	public static void main(String[] args) {
-		float a = -1;
-		float e = castNumber(a);
-		float b = (float) 0.0;
-		float c = getDefaultNumber(e,b);
-		String d = isPositiveOrNegative(e);
-		//boolean b = isInt(a);
-		
-	
-		System.out.println(d);
-		System.out.println(c+">dato");
-		//probando el default #1
-	}
+
 }
+
