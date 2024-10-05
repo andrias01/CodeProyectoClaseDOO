@@ -9,7 +9,7 @@ public class CountryDomain extends Domain {
 
 	private String name;
 	
-	protected CountryDomain(final UUID id, final String name) {
+	private CountryDomain(final UUID id, final String name) {
 		super(id);
 		setName(name);
 		// TODO Auto-generated constructor stub
