@@ -1,0 +1,13 @@
+package co.edu.uco.PrubaPatrones.EjecucionMain;
+
+import co.edu.uco.PrubaPatrones.DAO.PersonaDAO;
+import co.edu.uco.PrubaPatrones.DAO.PersonaDAOImpl;
+
+public class App {
+	public static void main(String[] args) {
+		PersonaDAO daoP = new PersonaDAOImpl();
+		daoP.listarTodos().forEach(x -> System.out.print(x.getNombres()));
+	}
+	
+
+}

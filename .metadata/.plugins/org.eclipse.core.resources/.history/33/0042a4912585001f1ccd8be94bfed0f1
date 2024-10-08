@@ -1,0 +1,82 @@
+package co.edu.uco.PrubaPatrones.EjecucionMainFactoryDAO;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import co.edu.uco.PrubaPatrones.EjecucionMainFactoryDAO.ModeloFD.Profesor;
+
+public class ProfesorDAOImpl implements ProfesorDAO {
+	
+	private static final String INSERT_PROFESOR_SQL = "INSERT INTO medico (nombre, edad, especialidad, id) VALUES (?, ?, ?, ?)";
+    private static final String SELECT_PROFESOR_BY_ID = "SELECT * FROM medico WHERE id = ?";
+
+	@Override
+	public void guardar(Profesor persona) {
+		Profesor profesor = persona; 
+        try (Connection connection = ConexionDB.getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(INSERT_PROFESOR_SQL)) {
+            
+            preparedStatement.setString(1, profesor.getNombre());
+            preparedStatement.setInt(2, profesor.getEdad());
+            preparedStatement.setString(3, profesor.getAsignatura());
+            preparedStatement.setInt(4, profesor.getId());
+
+            preparedStatement.executeUpdate();
+            System.out.println("Medico guardado exitosamente.");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Profesor obtenerPorId(int id) {
+		
+		Profesor profesor = null;
+        try (Connection connection = ConexionDB.getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(SELECT_PROFESOR_BY_ID)) {
+            
+            preparedStatement.setInt(1, id);
+            ResultSet rs = preparedStatement.executeQuery();
+
+            if (rs.next()) {
+                String nombre = rs.getString("nombre");
+                int edad = rs.getInt("edad");
+                String asignatura = rs.getString("asignatura");
+                profesor = new Profesor(nombre, edad, asignatura, id);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return profesor;
+	}
+
+	@Override
+	public List<Profesor> listarTodos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void actualizar(Profesor persona) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void eliminar(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void enseñar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

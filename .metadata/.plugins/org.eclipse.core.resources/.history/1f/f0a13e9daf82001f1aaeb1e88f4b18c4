@@ -1,0 +1,15 @@
+package co.edu.uco.PrubaPatrones.DAO;
+
+import java.util.List;
+
+import co.edu.uco.PrubaPatrones.Modelo.Persona;
+
+public interface PersonaDAO {
+	
+	List<Persona> listarTodos();
+	Persona leerPorID (int id);
+	void registrar(Persona persona);
+	void actualizar(Persona persona);
+	void eliminar(int id);
+
+}

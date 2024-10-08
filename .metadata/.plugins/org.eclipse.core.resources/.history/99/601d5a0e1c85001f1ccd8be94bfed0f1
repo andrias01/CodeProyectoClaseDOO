@@ -1,0 +1,23 @@
+package co.edu.uco.PrubaPatrones.EjecucionMainFactoryDAO;
+
+import co.edu.uco.PrubaPatrones.EjecucionMainFactoryDAO.ModeloFD.Persona;
+import co.edu.uco.PrubaPatrones.EjecucionMainFactoryDAO.ModeloFD.Profesor;
+
+public class ProfesorDAO implements PersonaDAO {
+
+	@Override
+	public void guardar(Persona persona) {
+		// Lógica para guardar el profesor en la base de datos
+        System.out.println("Guardando profesor en la base de datos: " + persona.getDescripcion());
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Persona obtenerPorId(int id) {
+		// TODO Auto-generated method stub
+		// Lógica para recuperar un profesor por su ID
+        return new Profesor("Profe García", 38, "Matemáticas");
+	}
+
+}
