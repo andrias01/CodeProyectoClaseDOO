@@ -1,0 +1,26 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="co.edu.uco.ucobet.dto.DomainDTO"><rhs name\="co.edu.uco.ucobet.dto.CountryDTO"/></lhs><lhs name\="co.edu.uco.ucobet.dto.CountryDTO"><rhs name\="co.edu.uco.ucobet.dto.CountryDTO"/></lhs><lhs name\="co.edu.uco.ucobet.entity.DomainEntity"><rhs name\="co.edu.uco.ucobet.entity.CountryEntity"/></lhs><lhs name\="co.edu.uco.ucobet.entity.CountryEntity"><rhs name\="co.edu.uco.ucobet.entity.CountryEntity"/></lhs><lhs name\="co.edu.uco.ucobet.domain.Domain"><rhs name\="co.edu.uco.ucobet.domain.CountryDomain"/></lhs><lhs name\="co.edu.uco.ucobet.domain.CountryDomain"><rhs name\="co.edu.uco.ucobet.domain.CountryDomain"/></lhs><lhs name\="co.edu.uco.PrubaPatrones.DAO.PersonaDAO"><rhs name\="co.edu.uco.PrubaPatrones.DAO.PersonaDAOImpl"/></lhs><lhs name\="co.edu.uco.PrubaPatrones.DAO.CRUD"><rhs name\="co.edu.uco.PrubaPatrones.DAO.MedicoDAOImpl"/></lhs><lhs name\="co.edu.uco.PrubaPatrones.Modelo.Medico"><rhs name\="co.edu.uco.PrubaPatrones.Modelo.Medico"/></lhs><lhs name\="java.util.SequencedCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="co.edu.uco.PrubaPatrones.EjecucionFactory.InterfaceFactory.InterConexion"><rhs name\="co.edu.uco.PrubaPatrones.EjecucionFactory.InterfaceFactory.Implem.ConexionVacia"/><rhs name\="co.edu.uco.PrubaPatrones.EjecucionFactory.InterfaceFactory.Implem.ConexionMySQL"/><rhs name\="co.edu.uco.PrubaPatrones.EjecucionFactory.InterfaceFactory.Implem.ConexionOracle"/><rhs name\="co.edu.uco.PrubaPatrones.EjecucionFactory.InterfaceFactory.Implem.ConexionPosgreSQL"/></lhs><lhs name\="co.edu.uco.PrubaPatrones.EjecucionFactory.ConexionFactory"><rhs name\="co.edu.uco.PrubaPatrones.EjecucionFactory.ConexionFactory"/></lhs></history>
+content_assist_number_of_computers=21
+eclipse.preferences.version=1
+java_keyword=255,0,128
+java_keyword_italic=true
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.exception.name=e
+org.eclipse.jdt.ui.formatterprofiles.version=23
+org.eclipse.jdt.ui.gettersetter.use.is=true
+org.eclipse.jdt.ui.overrideannotation=true
+semanticHighlighting.abstractClass.bold=true
+semanticHighlighting.abstractClass.italic=true
+semanticHighlighting.inheritedField.color=0,0,255
+semanticHighlighting.inheritedField.enabled=true
+semanticHighlighting.inheritedMethodInvocation.color=0,255,0
+semanticHighlighting.localVariable.color=255,255,255
+semanticHighlighting.localVariable.italic=true
+semanticHighlighting.localVariableDeclaration.color=255,255,255
+semanticHighlighting.localVariableDeclaration.italic=true
+semanticHighlighting.staticMethodInvocation.color=128,255,128
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

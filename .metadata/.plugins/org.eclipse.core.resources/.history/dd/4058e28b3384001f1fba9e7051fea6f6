@@ -1,0 +1,43 @@
+package co.edu.uco.connectionJBDC;
+
+import java.beans.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class ConexionWithBaseDatos {
+	
+	private final String url = "jdbc:postgresql://localhost:5432/LocalBaseDatosJava";
+	private final String user = "postgres";
+	private final String password = "123456";
+	
+
+	
+	private void connect() {
+		try(Connection connection = DriverManager.getConnection(url, user, password);){
+			if(connection != null) {
+				//para octener el hostname del gestor de datos en tu base poner la siguente consulta
+				// SHOW VARIABLES WHERE VARIABLE_NAME IN('hostname','port')
+				System.out.print("Connection succesfull");
+				java.sql.Statement miStatement = connection.createStatement();
+				ResultSet miResultset = miStatement.executeQuery("SELECT * FROM ROLES"); // miStatement.executeQuery("SELECT * FROM ROLES");
+				while(miResultset.next()) {
+					System.out.print("\n"+miResultset.getString("nombre"));
+				}
+			}else {
+				System.out.print("Failed to connect Post");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void main(String[] args) {
+		ConexionWithBaseDatos sqlConnect = new ConexionWithBaseDatos();
+		sqlConnect.connect();
+	}
+			
+	
+
+}

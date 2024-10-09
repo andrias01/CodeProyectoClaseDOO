@@ -1,0 +1,40 @@
+package DAO;
+import java.util.ArrayList;
+
+import Modelo.Persona;
+
+public class PersonaDAOImpl implements PersonaDAO {
+	
+	@Override
+	public List<Persona> listarTodos() {
+		List<Persona> lista = new ArrayList<>();
+		Persona per = new Persona();
+		per.setId(1);
+		per.setNombres("Andres");
+		
+		lista
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public void actualizar(Persona persona) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void eliminar(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public Persona leerPorID(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public void registrar(Persona persona) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
