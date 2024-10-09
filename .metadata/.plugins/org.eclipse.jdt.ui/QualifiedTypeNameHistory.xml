@@ -6,12 +6,9 @@
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.dto.CityDTO"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.dto.StateDTO"/>
     <fullyQualifiedTypeName name="java.awt.Taskbar.State"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.StateEntity"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.CountryEntity"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.domain.Domain"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.ObjectHelper"/>
-    <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.UUIDHelper"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.TextHelper"/>
     <fullyQualifiedTypeName name="java.lang.classfile.attribute.StackMapTableAttribute"/>
@@ -24,7 +21,6 @@
     <fullyQualifiedTypeName name="co.edu.uco.PrubaPatrones.DAO.MedicoDAOImpl"/>
     <fullyQualifiedTypeName name="co.edu.uco.PrubaPatrones.DAO.MedicoDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.PrubaPatrones.Modelo.Medico"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="co.edu.uco.PrubaPatrones.EjecucionFactory.InterfaceFactory.Implem.ConexionVacia"/>
     <fullyQualifiedTypeName name="co.edu.uco.PrubaPatrones.EjecucionFactory.InterfaceFactory.Implem.ConexionMySQL"/>
@@ -45,4 +41,16 @@
     <fullyQualifiedTypeName name="co.edu.uco.PrubaPatrones.EjecucionMainDAO.ModeloDAO.Persona"/>
     <fullyQualifiedTypeName name="co.edu.uco.PrubaPatrones.EjecucionMainFactoryDAO.ModeloFD.Medico"/>
     <fullyQualifiedTypeName name="co.edu.uco.PrubaPatrones.EjecucionMainFactoryDAO.ProfesorDAO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.CountryEntity"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.CountryDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.StateEntity"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.RetrieveDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.CreateDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.DeleteDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.UpdateDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.CityEntity"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.StateDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.CityDAO"/>
 </qualifiedTypeNameHistroy>
