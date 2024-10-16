@@ -1742,3 +1742,6 @@
 2024-10-16 11:53:50,736 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-10-16 11:53:50,741 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-10-16 11:53:50,744 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-16 11:59:47,266 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-16 11:59:47,280 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-16 11:59:47,285 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources

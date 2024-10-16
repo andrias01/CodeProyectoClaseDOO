@@ -49,7 +49,6 @@
     <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.TextHelper"/>
     <fullyQualifiedTypeName name="org.springframework.web.accept.ParameterContentNegotiationStrategy"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.DatabaseMetaData"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.crosscutting.exceptions.DataUcoBetException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.impl.sql.SqlDAO"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 </qualifiedTypeNameHistroy>

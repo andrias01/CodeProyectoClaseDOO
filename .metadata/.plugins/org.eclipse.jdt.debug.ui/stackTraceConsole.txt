@@ -1,0 +1,19 @@
+for (var arrayIndex = 0; arrayIndex < parameters.size(); arrayIndex++) {
+//				var statementIndex = arrayIndex + 1;
+//				preparedStatement.setObject(statement,parameters.get(arrayIndex));
+//			}
+//			
+//			try (final ResultSet result = preparedStatement.executeQuery()){
+//				while(result.next()) {
+//					var countryEntityTmp = new CountryEntity();
+//					countryEntityTmp.setId(UUIDHelper.convertToUUID(result.getString("id")));
+//					countryEntityTmp.setName(result.getString("name"));
+//					
+//					resultSelect.add(countryEntityTmp);
+//				}
+//			} catch (final SQLException exception) {
+//				var userMessage = "";
+//				var technicalMessege = "log de errores para encontrar mayores detalles del problema presentado...";
+//				
+//				throw DataUcoBetException.crear(userMessage, technicalMessege, exception);
+//			}
