@@ -24,90 +24,92 @@ public class StateSqlServerDAO implements StateDAO {
 
 	@Override
 	public StateEntity fingByID(UUID id) {
-		String instruccionSQL = "SELECT id, nombre, pais FROM state WHERE id = ?";
-	    StateEntity state = null; // Instancia para almacenar el resultado
-	    
-	    try (Connection connection = DriverManager.getConnection(url, user, password)) {
-	        if (connection != null) {
-	            PreparedStatement miSentencia = connection.prepareStatement(instruccionSQL);
-	            miSentencia.setString(1, id.toString()); // Asignar el UUID como String
-	            
-	            ResultSet miResultset = miSentencia.executeQuery();
-	            
-	            if (miResultset.next()) { // Verificar si hay resultado
-	                // Crear un nuevo objeto CountryEntity y asignar los valores
-	                state = new StateEntity();
-	                state.setId(UUIDHelper.convertToUUID(miResultset.getString("id"))); // Asignar el UUID
-	                state.setName(miResultset.getString("nombre")); // Asignar el nombre
-	             // Obtener el country_id y buscar el país asociado
-	                UUID countryId = UUIDHelper.convertToUUID(miResultset.getString("pais"));
-	                
-	                // Obtener la entidad Country utilizando el DAO de países
-	                CountrySqlServerDAO countrySql = new CountrySqlServerDAO();
-	                CountryEntity country = countrySql.fingByID(countryId); // Método para obtener el país
-	                
-	                // Asignar el país al estado
-	                state.setCountry(country);
-	                //state.setCountry(miResultset.getString("pais")));
-	            }
-	            
-	            miResultset.close();
-	        } else {
-	            System.out.println("Failed to connect to the database");
-	        }
-	    } catch (SQLException e) {
-	        e.printStackTrace();
-	    }
-	    
-	    // Retornar el objeto CountryEntity (si no se encuentra, retornará null)
-	    return state;
+//		String instruccionSQL = "SELECT id, nombre, pais FROM state WHERE id = ?";
+//	    StateEntity state = null; // Instancia para almacenar el resultado
+//	    
+//	    try (Connection connection = DriverManager.getConnection(url, user, password)) {
+//	        if (connection != null) {
+//	            PreparedStatement miSentencia = connection.prepareStatement(instruccionSQL);
+//	            miSentencia.setString(1, id.toString()); // Asignar el UUID como String
+//	            
+//	            ResultSet miResultset = miSentencia.executeQuery();
+//	            
+//	            if (miResultset.next()) { // Verificar si hay resultado
+//	                // Crear un nuevo objeto CountryEntity y asignar los valores
+//	                state = new StateEntity();
+//	                state.setId(UUIDHelper.convertToUUID(miResultset.getString("id"))); // Asignar el UUID
+//	                state.setName(miResultset.getString("nombre")); // Asignar el nombre
+//	             // Obtener el country_id y buscar el país asociado
+//	                UUID countryId = UUIDHelper.convertToUUID(miResultset.getString("pais"));
+//	                
+//	                // Obtener la entidad Country utilizando el DAO de países
+//	                CountrySqlServerDAO countrySql = new CountrySqlServerDAO();
+//	                CountryEntity country = countrySql.fingByID(countryId); // Método para obtener el país
+//	                
+//	                // Asignar el país al estado
+//	                state.setCountry(country);
+//	                //state.setCountry(miResultset.getString("pais")));
+//	            }
+//	            
+//	            miResultset.close();
+//	        } else {
+//	            System.out.println("Failed to connect to the database");
+//	        }
+//	    } catch (SQLException e) {
+//	        e.printStackTrace();
+//	    }
+//	    
+//	    // Retornar el objeto CountryEntity (si no se encuentra, retornará null)
+//	    return state;
+		return null;
 	}
 
 	@Override
 	public List<StateEntity> findAll() {
-		String instruccionSQL = "SELECT id, nombre, pais FROM state"; // Cambiar a la tabla state
-	    List<StateEntity> stateList = new ArrayList<>(); // Lista para almacenar los resultados
-	    
-	    try (Connection connection = DriverManager.getConnection(url, user, password)) {
-	        if (connection != null) {
-	            Statement miSentencia = connection.createStatement();
-	            ResultSet miResultset = miSentencia.executeQuery(instruccionSQL);
-	            
-	            while (miResultset.next()) {
-	                // Crear un nuevo objeto StateEntity y asignar los valores
-	                StateEntity state = new StateEntity();
-	                
-	                // Convertir el id a UUID desde el String
-	                UUID id = UUIDHelper.convertToUUID(miResultset.getString("id"));
-	                state.setId(id); // Asignar el UUID
-	                
-	                // Asignar el nombre del estado
-	                state.setName(miResultset.getString("nombre"));
-	                
-	                // Obtener el country_id y buscar el país asociado
-	                UUID countryId = UUIDHelper.convertToUUID(miResultset.getString("pais"));
-	                
-	                // Obtener la entidad Country utilizando el DAO de países
-	                CountrySqlServerDAO countrySql = new CountrySqlServerDAO();
-	                CountryEntity country = countrySql.fingByID(countryId); // Método para obtener el país
-	                
-	                // Asignar el país al estado
-	                state.setCountry(country);
-	                
-	                // Agregar el objeto StateEntity a la lista
-	                stateList.add(state);
-	            }
-	            
-	            miResultset.close();
-	        } else {
-	            System.out.println("Failed to connect to the database");
-	        }
-	    } catch (SQLException e) {
-	        e.printStackTrace();
-	    }
-	    
-	    // Retornar la lista de StateEntity
-	    return stateList;
+//		String instruccionSQL = "SELECT id, nombre, pais FROM state"; // Cambiar a la tabla state
+//	    List<StateEntity> stateList = new ArrayList<>(); // Lista para almacenar los resultados
+//	    
+//	    try (Connection connection = DriverManager.getConnection(url, user, password)) {
+//	        if (connection != null) {
+//	            Statement miSentencia = connection.createStatement();
+//	            ResultSet miResultset = miSentencia.executeQuery(instruccionSQL);
+//	            
+//	            while (miResultset.next()) {
+//	                // Crear un nuevo objeto StateEntity y asignar los valores
+//	                StateEntity state = new StateEntity();
+//	                
+//	                // Convertir el id a UUID desde el String
+//	                UUID id = UUIDHelper.convertToUUID(miResultset.getString("id"));
+//	                state.setId(id); // Asignar el UUID
+//	                
+//	                // Asignar el nombre del estado
+//	                state.setName(miResultset.getString("nombre"));
+//	                
+//	                // Obtener el country_id y buscar el país asociado
+//	                UUID countryId = UUIDHelper.convertToUUID(miResultset.getString("pais"));
+//	                
+//	                // Obtener la entidad Country utilizando el DAO de países
+//	                CountrySqlServerDAO countrySql = new CountrySqlServerDAO();
+//	                CountryEntity country = countrySql.fingByID(countryId); // Método para obtener el país
+//	                
+//	                // Asignar el país al estado
+//	                state.setCountry(country);
+//	                
+//	                // Agregar el objeto StateEntity a la lista
+//	                stateList.add(state);
+//	            }
+//	            
+//	            miResultset.close();
+//	        } else {
+//	            System.out.println("Failed to connect to the database");
+//	        }
+//	    } catch (SQLException e) {
+//	        e.printStackTrace();
+//	    }
+//	    
+//	    // Retornar la lista de StateEntity
+//	    return stateList;
+		return null;
 	}
 
 	@Override
