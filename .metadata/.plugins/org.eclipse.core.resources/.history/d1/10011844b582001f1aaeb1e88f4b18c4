@@ -1,8 +1,0 @@
-package co.edu.uco.PrubaPatrones.DAO;
-
-import co.edu.uco.PrubaPatrones.ModeloDAO.Persona;
-
-public interface PersonaDAO extends CRUD<Persona> {
-	
-	void mostrarNombre();
-}

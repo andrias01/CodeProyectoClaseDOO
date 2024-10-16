@@ -1,0 +1,76 @@
+package co.edu.uco.ucobet.data.dao.impl.sqlserver;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.List;
+import java.util.UUID;
+
+import co.edu.uco.ucobet.data.dao.CityDAO;
+import co.edu.uco.ucobet.entity.CityEntity;
+
+public class CitySqlServerDAO implements CityDAO {
+	
+	private final static String url = "jdbc:sqlserver://ucobet-server.database.windows.net:1433;database=ucobet-db";
+	private final static String user = "ucobetdbuser";
+	private final static String password = "uc0b3tdbus3r!";
+
+	@Override
+	public CityEntity fingByID(UUID id) {
+		try(Connection connection = DriverManager.getConnection(url, user, password);){
+			if(connection != null) {
+				
+				
+			}else {
+				System.out.print("Failed to connect Post");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<CityEntity> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<CityEntity> findByFilter(CityEntity filter) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void create(CityEntity data) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(CityEntity data) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(UUID data) {
+		// TODO Auto-generated method stub
+		
+	}
+	public static void main(String[] args) {
+		try(Connection connection = DriverManager.getConnection(url, user, password);){
+			if(connection != null) {
+				System.out.print("Connection succesfull");
+				
+			}else {
+				System.out.print("Failed to connect Post");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

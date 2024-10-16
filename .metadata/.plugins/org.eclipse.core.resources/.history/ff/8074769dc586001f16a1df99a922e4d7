@@ -1,0 +1,173 @@
+package co.edu.uco.ucobet.data.dao.impl.sqlserver;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
+
+import co.edu.uco.crosscutting.helpers.UUIDHelper;
+import co.edu.uco.ucobet.data.dao.CountryDAO;
+import co.edu.uco.ucobet.entity.CountryEntity;
+
+public class CountrySqlServerDAO implements CountryDAO {
+
+//	private final String url = "jdbc:sqlserver://ucobet-server.database.windows.net:1433;database=ucobet-db";
+//	private final String user = "ucobetdbuser";
+//	private final String password = "uc0b3tdbus3r!";
+	
+	private final String url = "jdbc:postgresql://localhost:5432/baseJavaPractica";
+	private final String user = "postgres";
+	private final String password = "123456";
+	@Override
+	public CountryEntity fingByID(UUID id) {
+		String instruccionSQL="SELECT id,nombre FROM country WHERE id=?";
+		try(Connection connection = DriverManager.getConnection(url, user, password);){
+			if(connection != null) {
+				PreparedStatement miSentencia = connection.prepareStatement(instruccionSQL);
+				miSentencia.setString(1, id.toString());
+				ResultSet miResultset = miSentencia.executeQuery();
+				while(miResultset.next()) {
+					System.out.print("\n ID: "+miResultset.getString(1)+" NombrePais: "+miResultset.getString(2) );
+				}
+				miResultset.close();
+			}else {
+				System.out.print("Failed to connect Post");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<CountryEntity> findAll() {
+		String instruccionSQL="SELECT id,nombre FROM country";
+		try(Connection connection = DriverManager.getConnection(url, user, password);){
+			if(connection != null) {
+				Statement miSentencia = connection.createStatement();
+				ResultSet miResultset = miSentencia.executeQuery(instruccionSQL);
+				while(miResultset.next()) {
+					System.out.print("\n ID: "+miResultset.getString(1)+" NombrePais: "+miResultset.getString(2) );
+				}
+				miResultset.close();
+			}else {
+				System.out.print("Failed to connect Post");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<CountryEntity> findByFilter(CountryEntity filter) {
+		List<CountryEntity> countries = new ArrayList<>();
+	    StringBuilder instruccionSQL = new StringBuilder("SELECT id, nombre FROM country");
+	    boolean hasCondition = false;
+
+	    // Verificar si se debe filtrar por ID
+	    if (filter.getId() != null) {
+	        instruccionSQL.append(" WHERE id = ?");
+	        hasCondition = true;
+	    } 
+	    // Verificar si se debe filtrar por nombre
+	    if (filter.getName() != null && !filter.getName().isEmpty()) {
+	        if (hasCondition) {
+	            instruccionSQL.append(" AND");
+	        } else {
+	            instruccionSQL.append(" WHERE");
+	            hasCondition = true;
+	        }
+	        instruccionSQL.append(" nombre = ?");
+	    }
+
+	    instruccionSQL.append(" ORDER BY nombre ASC");  // Ordenar por nombre
+
+	    try (Connection connection = DriverManager.getConnection(url, user, password)) {
+	        if (connection != null) {
+	            PreparedStatement miSentencia = connection.prepareStatement(instruccionSQL.toString());
+
+	            int parameterIndex = 1;
+
+	            // Si hay un ID, establecerlo en el PreparedStatement
+	            if (filter.getId() != null) {
+	                miSentencia.setString(parameterIndex++, filter.getId().toString());
+	            }
+
+	            // Si hay un nombre, establecerlo en el PreparedStatement
+	            if (filter.getName() != null && !filter.getName().isEmpty()) {
+	                miSentencia.setString(parameterIndex++, filter.getName());
+	            }
+
+	            ResultSet miResultset = miSentencia.executeQuery();
+	            while (miResultset.next()) {
+	                CountryEntity country = new CountryEntity();
+	                country.setId(UUID.fromString(miResultset.getString(1)));
+	                country.setName(miResultset.getString(2));
+	                countries.add(country); // Agregar el país a la lista
+	            }
+	            miResultset.close();
+	        } else {
+	            System.out.print("Failed to connect Post");
+	        }
+	    } catch (SQLException e) {
+	        e.printStackTrace();
+	    }
+
+	    return countries; // Retornar la lista de países
+	}
+
+	public static void main(String[] args) {
+		public static void main(String[] args) {
+	        // Crear una instancia de la clase que contiene el método findByFilter
+	        YourClassName repository = new YourClassName(); // Cambia YourClassName por el nombre de tu clase
+	        
+	        // Crear un objeto CountryEntity para filtrar
+	        CountryEntity filter = new CountryEntity();
+	        
+	        Scanner scanner = new Scanner(System.in);
+	        
+	        System.out.println("¿Deseas filtrar por ID o Nombre? (ingresa 'id' o 'nombre'):");
+	        String tipoFiltro = scanner.nextLine().trim().toLowerCase();
+	        
+	        if ("id".equals(tipoFiltro)) {
+	            System.out.println("Ingresa el ID del país (formato UUID):");
+	            String idInput = scanner.nextLine().trim();
+	            try {
+	                filter.setId(UUID.fromString(idInput)); // Establecer el ID
+	            } catch (IllegalArgumentException e) {
+	                System.out.println("ID no válido. Por favor, introduce un UUID correcto.");
+	                return; // Salir si el UUID no es válido
+	            }
+	        } else if ("nombre".equals(tipoFiltro)) {
+	            System.out.println("Ingresa el nombre del país:");
+	            String nombreInput = scanner.nextLine().trim();
+	            filter.setName(nombreInput); // Establecer el nombre
+	        } else {
+	            System.out.println("Tipo de filtro no válido. Por favor, introduce 'id' o 'nombre'.");
+	            return; // Salir si el tipo de filtro no es válido
+	        }
+
+	        // Llamar al método para obtener la lista de países
+	        List<CountryEntity> countries = repository.findByFilter(filter);
+
+	        // Mostrar los resultados en pantalla
+	        if (countries != null && !countries.isEmpty()) {
+	            for (CountryEntity country : countries) {
+	                System.out.println("ID: " + country.getId() + ", Nombre: " + country.getName());
+	            }
+	        } else {
+	            System.out.println("No se encontraron países que coincidan con los criterios.");
+	        }
+
+	        scanner.close(); // Cerrar el escáner
+	    }
+    }
+}

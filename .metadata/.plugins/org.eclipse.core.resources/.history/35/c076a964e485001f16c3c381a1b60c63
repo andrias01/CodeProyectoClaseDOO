@@ -1,5 +1,0 @@
-package co.edu.uco.ucobet.data.dao.impl.sqlserver;
-
-public class StateSqlServerDAO {
-
-}
