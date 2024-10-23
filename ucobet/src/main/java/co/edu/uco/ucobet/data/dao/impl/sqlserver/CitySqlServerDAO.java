@@ -19,7 +19,7 @@ import co.edu.uco.ucobet.entity.CityEntity;
 import co.edu.uco.ucobet.entity.CountryEntity;
 import co.edu.uco.ucobet.entity.StateEntity;
 
-public final class CitySqlServerDAO extends SqlDAO implements CityDAO {
+final class CitySqlServerDAO extends SqlDAO implements CityDAO {
 	
 	protected CitySqlServerDAO(final Connection connection) {
 		super(connection);
@@ -75,7 +75,7 @@ public final class CitySqlServerDAO extends SqlDAO implements CityDAO {
 	                UUID countryId = UUIDHelper.convertToUUID(miResultset.getString("departamento"));
 	                
 	                // Obtener la entidad departamento utilizando el DAO de países
-	                StateSqlServerDAO stateSql = new StateSqlServerDAO();
+	                StateSqlServerDAO stateSql = new StateSqlServerDAO(connection);
 	                StateEntity state = stateSql.fingByID(countryId); // Método para obtener el país
 	                
 	                // Asignar el departemento a la ciudad

@@ -13,14 +13,20 @@ import java.util.UUID;
 
 import co.edu.uco.crosscutting.helpers.UUIDHelper;
 import co.edu.uco.ucobet.data.dao.StateDAO;
+import co.edu.uco.ucobet.data.dao.impl.sql.SqlDAO;
 import co.edu.uco.ucobet.entity.CountryEntity;
 import co.edu.uco.ucobet.entity.StateEntity;
 
-public class StateSqlServerDAO implements StateDAO {
+class StateSqlServerDAO extends SqlDAO implements StateDAO {
 	
-	private final String url = "jdbc:postgresql://localhost:5432/baseJavaPractica";
-	private final String user = "postgres";
-	private final String password = "123456";
+	protected StateSqlServerDAO(final Connection connection) {
+		super(connection);
+		// TODO Auto-generated constructor stub
+	};
+	
+//	private final String url = "jdbc:postgresql://localhost:5432/baseJavaPractica";
+//	private final String user = "postgres";
+//	private final String password = "123456";
 
 	@Override
 	public StateEntity fingByID(UUID id) {

@@ -11,16 +11,16 @@ public class BusinessLogicUcoBetException extends UcoBetException {
 		super(userMessage, technicalMessage, rootException, Layer.BUSINESSLOGIC);
 	}
 
-	public static final BusinessLogicUcoBetException crear(final String userMessage, final String technicalMessage,
+	public static final BusinessLogicUcoBetException create(final String userMessage, final String technicalMessage,
 			final Exception rootException) {
 		return new BusinessLogicUcoBetException(userMessage, technicalMessage, rootException);
 	}
 
-	public static final BusinessLogicUcoBetException crear(final String userMessage) {
+	public static final BusinessLogicUcoBetException create(final String userMessage) {
 		return new BusinessLogicUcoBetException(userMessage, userMessage, new Exception());
 	}
 
-	public static final BusinessLogicUcoBetException crear(final String userMessage, final String technicalMessage) {
+	public static final BusinessLogicUcoBetException create(final String userMessage, final String technicalMessage) {
 		return new BusinessLogicUcoBetException(userMessage, technicalMessage, new Exception());
 	}
 
