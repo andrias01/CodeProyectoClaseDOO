@@ -15,14 +15,6 @@ import co.edu.uco.ucobet.data.dao.impl.sql.SqlDAO;
 import co.edu.uco.ucobet.entity.CountryEntity;
 
 final class CountrySqlServerDAO extends SqlDAO implements CountryDAO {
-
-//	private final String url = "jdbc:sqlserver://ucobet-server.database.windows.net:1433;database=ucobet-db";
-//	private final String user = "ucobetdbuser";
-//	private final String password = "uc0b3tdbus3r!";
-	
-//	private final String url = "jdbc:postgresql://localhost:5432/baseJavaPractica";
-//	private final String user = "postgres";
-//	private final String password = "123456";
 	
 	public CountrySqlServerDAO(Connection connection) {
 		super(connection);

@@ -1,16 +1,13 @@
 package co.edu.uco.ucobet.businesslogic.adapter.entity;
 
 import co.edu.uco.crosscutting.helpers.ObjectHelper;
+
 import co.edu.uco.crosscutting.helpers.TextHelper;
 import co.edu.uco.crosscutting.helpers.UUIDHelper;
 import co.edu.uco.ucobet.businesslogic.adapter.Adapter;
-import co.edu.uco.ucobet.domain.CityDomain;
 import co.edu.uco.ucobet.domain.CountryDomain;
-import co.edu.uco.ucobet.domain.StateDomain;
-import co.edu.uco.ucobet.dto.CountryDTO;
-import co.edu.uco.ucobet.entity.CityEntity;
 import co.edu.uco.ucobet.entity.CountryEntity;
-import co.edu.uco.ucobet.entity.StateEntity;
+
 
 public class CountryEntityAdapter implements Adapter<CountryEntity,CountryDomain>{
 	

@@ -2,9 +2,9 @@ package co.edu.uco.ucobet.entity;
 
 import java.util.UUID;
 
+
 import co.edu.uco.crosscutting.helpers.TextHelper;
 import co.edu.uco.crosscutting.helpers.UUIDHelper;
-import co.edu.uco.ucobet.dto.CountryDTO;
 
 public class CountryEntity extends DomainEntity {
 	private String name;
@@ -29,11 +29,4 @@ public class CountryEntity extends DomainEntity {
 	public UUID getId() {
 		return super.getId();
 	}
-//	public static void main(String[] args) {
-//		CountryDTO country = new CountryDTO();
-//		country.setId(null);
-//		
-//		System.out.println(country.getId());
-//		System.out.println(country.getName());
-//	}
 }

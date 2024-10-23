@@ -2,8 +2,6 @@ package co.edu.uco.ucobet.businesslogic.adapter.entity;
 
 import co.edu.uco.ucobet.businesslogic.adapter.Adapter;
 import co.edu.uco.ucobet.domain.CityDomain;
-import co.edu.uco.ucobet.domain.CountryDomain;
-import co.edu.uco.ucobet.dto.CountryDTO;
 import co.edu.uco.ucobet.entity.CityEntity;
 
 public final class CityEntityAdapter implements Adapter<CityEntity,CityDomain>{

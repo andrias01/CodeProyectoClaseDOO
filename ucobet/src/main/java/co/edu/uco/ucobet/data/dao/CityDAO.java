@@ -5,10 +5,9 @@ import java.util.UUID;
 
 import co.edu.uco.ucobet.entity.CityEntity;
 
-public interface CityDAO 
-extends RetrieveDAO<CityEntity, UUID>,
-CreateDAO<CityEntity>,
-DeleteDAO<CityEntity>,
-UpdateDAO<UUID> {
+public interface CityDAO extends RetrieveDAO<CityEntity, UUID>,
+	CreateDAO<CityEntity>,
+	DeleteDAO<UUID>,
+	UpdateDAO<CityEntity> {
 
 }

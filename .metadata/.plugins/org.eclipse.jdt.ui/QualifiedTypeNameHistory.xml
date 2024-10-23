@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="co.edu.uco.PrubaPatrones.EjecucionMainDAO.DAO.MedicoDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.PrubaPatrones.EjecucionMainFactoryDAO.PersonaFactory"/>
     <fullyQualifiedTypeName name="co.edu.uco.PrubaPatrones.EjecucionMainDAO.ModeloDAO.Persona"/>
     <fullyQualifiedTypeName name="co.edu.uco.PrubaPatrones.EjecucionMainFactoryDAO.ModeloFD.Medico"/>
@@ -40,15 +39,12 @@
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.dto.CountryDTO"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.CountryDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.domain.CountryDomain"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.CountryEntity"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.StateDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.CityDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.CityEntity"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.domain.StateDomain"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.StateEntity"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.DAOFactory"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.ObjectHelper"/>
-    <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.usecase.UseWithReturn"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.usecase.UseWithoutReturn"/>
@@ -58,6 +54,10 @@
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.usecase.city.RegisterNewCity"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.usecase.city.UpdateCity"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.crosscutting.exceptions.BusinessLogicUcoBetException"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.adapter.entity.CityEntityAdapter"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.adapter.Adapter"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.adapter.entity.CityEntityAdapter"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.CountryEntity"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.StateEntity"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.adapter.dto.StateDTOAdapter"/>
 </qualifiedTypeNameHistroy>

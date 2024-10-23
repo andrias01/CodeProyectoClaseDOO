@@ -42,12 +42,4 @@ public class StateEntity extends DomainEntity {
 		this.country = ObjectHelper.getDefault(country, new CountryEntity());
 	}
 	
-	
-//	public static void main(String[] args) {
-//		CountryDTO country = new CountryDTO();
-//		country.setId(null);
-//		
-//		System.out.println(country.getId());
-//		System.out.println(country.getName());
-//	}
 }
