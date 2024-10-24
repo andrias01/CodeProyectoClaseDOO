@@ -17,7 +17,7 @@ public abstract class DAOFactory {
 	
 	public abstract void closeConnection();
 	
-	public abstract CityDAO getCityDAO();
+	public abstract CityDTO getCityDAO();
 	public abstract CountryDAO getCountryDAO();
 	public abstract StateDAO getStateDAO();
 }

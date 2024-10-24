@@ -2,6 +2,7 @@ package co.edu.uco.ucobet.businesslogic.adapter.dto;
 
 
 import co.edu.uco.crosscutting.helpers.ObjectHelper;
+
 import co.edu.uco.crosscutting.helpers.TextHelper;
 import co.edu.uco.crosscutting.helpers.UUIDHelper;
 import co.edu.uco.ucobet.businesslogic.adapter.Adapter;
@@ -31,11 +32,8 @@ public class CountryDTOAdapter implements Adapter<CountryDomain, CountryDTO> {
 	@Override
 	public CountryDTO adaptTarget(final CountryDomain data) {
 	    var domainToAdapt = ObjectHelper.getDefault(data, CountryDomain.create(UUIDHelper.getDefault(), TextHelper.EMPTY));
-		return CountryDTO.create().setId("").setName(domainToAdapt.getName());
+	    return CountryDTO.create()
+	            .setId(UUIDHelper.getDefaultAsString()) /*pendiente*/ // Convertimos el UUID a String
+	            .setName(domainToAdapt.getName());
 	}
-
-	
-
-
-
 }

@@ -1,46 +1,44 @@
 package co.edu.uco.ucobet.businesslogic.adapter.dto;
+
+
 import co.edu.uco.crosscutting.helpers.ObjectHelper;
+
+import co.edu.uco.crosscutting.helpers.TextHelper;
 import co.edu.uco.crosscutting.helpers.UUIDHelper;
 import co.edu.uco.ucobet.businesslogic.adapter.Adapter;
-import co.edu.uco.ucobet.data.dao.StateDAO;
+import co.edu.uco.ucobet.domain.CountryDomain;
 import co.edu.uco.ucobet.domain.StateDomain;
 import co.edu.uco.ucobet.dto.StateDTO;
 
-public class StateDTOAdapter implements Adapter<StateDomain, StateDAO>{
+public class StateDTOAdapter implements Adapter<StateDomain, StateDTO>{
 	
-	private static final Adapter<StateDomain, StateDAO> instance = new StateDTOAdapter();
+	private static final Adapter<StateDomain, StateDTO> instance = new StateDTOAdapter();
 	
 	private StateDTOAdapter() {
 		
 	}
 	
-	public static Adapter<StateDomain, StateDAO> getStateDTOAdapter(){
+	public static Adapter<StateDomain, StateDTO> getStateDTOAdapter(){
 		return instance;
 	}
 
 	@Override
-	public StateDomain adaptSource(StateDAO data) {
-		// Usar un DTO por defecto si data es nulo
-				var dtoToAdapt = ObjectHelper.getDefault(data,StateDTO.create());
-				
-				// Convertir el DTO a Domain usando los adaptadores correspondientes (por ejemplo, para el Country)
-				return StateDomain.create(
-					UUIDHelper.convertToUUID(((StateDomain) dtoToAdapt).getId()), 
-					dtoToAdapt.getName(),
-					CountryDTOAdapter.getCountryDTOAdapter().adaptSource(dtoToAdapt.getCountry()) // Adaptar el país también
-				);	
+	public StateDomain adaptSource(StateDTO data) {
+		var dtoToAdapt = ObjectHelper.getDefault(data,StateDTO.create());
+		return StateDomain.create(
+				UUIDHelper.convertToUUID(dtoToAdapt.getId()), 
+				dtoToAdapt.getName(),
+				CountryDTOAdapter.getCountryDTOAdapter().adaptSource(dtoToAdapt.getCountry()));
 	}
 
 	@Override
-	public StateDAO adaptTarget(StateDomain data) {
-		// Usar un Domain por defecto si data es nulo
-				var domainToAdapt = ObjectHelper.getDefault(data, StateDomain.create(UUIDHelper.getDefault(), TextHelper.EMPTY, null));
-				
-				// Convertir el Domain a DTO usando los adaptadores correspondientes (por ejemplo, para el Country)
-				return StateDTO.create()
-					.setId(UUIDHelper.getUUIDAsString(domainToAdapt.getId()))
-					.setName(domainToAdapt.getName())
-					.setCountry(CountryDTOAdapter.getCountryDTOAdapter().adaptTarget(domainToAdapt.getCountry())); // Adaptar el país también
+	public StateDTO adaptTarget(StateDomain data) {
+		// Usar un Domain por defecto si data es nulos
+		var domainToAdapt = ObjectHelper.getDefault(data, StateDomain.create(UUIDHelper.getDefault(), TextHelper.EMPTY, CountryDomain.create(UUIDHelper.getDefault(), TextHelper.EMPTY)));
+		return StateDTO.create()
+				.setId(UUIDHelper.getDefaultAsString())
+				.setName(domainToAdapt.getName())
+				.setCountry(CountryDTOAdapter.getCountryDTOAdapter().adaptTarget(domainToAdapt.getCountry()));		
 	}
-
+	
 }

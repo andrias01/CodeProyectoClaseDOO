@@ -45,15 +45,4 @@ public final class UUIDHelper {
 	public static final boolean isDefault(final String uuidAsString) {
 		return getDefault(convertToUUID(uuidAsString), getDefault()).equals(getDefault());
 	}
-	
-//	public static void main(String[] args) {
-//		
-//		System.out.print(convertToUUID("bd8f3526-ee4b-4b3d-8f8a-76b21e79cb4f"));
-//	}
-	
-//	public static void main(String[] args) {
-//		System.out.print(generate());
-//		System.out.print(convertToUUID("eeb0324f-5f54-4334-9690-f6e2f30dd6f7"));
-//	} patron de formacion valido que no sea null y te tenga trin o devuelva un valor por defecto 
-	
 }

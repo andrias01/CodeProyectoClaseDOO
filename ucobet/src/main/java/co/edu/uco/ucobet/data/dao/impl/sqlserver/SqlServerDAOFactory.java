@@ -5,7 +5,7 @@ package co.edu.uco.ucobet.data.dao.impl.sqlserver;
 import java.sql.Connection;
 
 import co.edu.uco.crosscutting.helpers.SqlConnectionHelper;
-import co.edu.uco.ucobet.data.dao.CityDAO;
+import co.edu.uco.ucobet.data.dao.CityDTO;
 import co.edu.uco.ucobet.data.dao.CountryDAO;
 import co.edu.uco.ucobet.data.dao.DAOFactory;
 import co.edu.uco.ucobet.data.dao.StateDAO;
@@ -47,7 +47,7 @@ public final class SqlServerDAOFactory extends DAOFactory {
 	}
 
 	@Override
-	public CityDAO getCityDAO() {
+	public CityDTO getCityDAO() {
 		return new CitySqlServerDAO(connection);
 	}
 
