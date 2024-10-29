@@ -2116,3 +2116,161 @@
 2024-10-24 07:35:10,274 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-10-24 07:35:10,282 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-10-24 07:35:10,285 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-24 07:37:28,401 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-24 07:37:31,316 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-24 07:53:23,564 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 07:53:23,568 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src to target\classes
+2024-10-24 07:53:23,571 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 07:53:23,571 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\CrossCutting\src\test\resources
+2024-10-24 07:55:29,051 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 07:55:29,057 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src to target\classes
+2024-10-24 07:55:29,061 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 07:55:29,062 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\CrossCutting\src\test\resources
+2024-10-24 08:12:31,896 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 08:12:31,899 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src to target\classes
+2024-10-24 08:12:31,901 [Worker-39: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 08:12:31,901 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\CrossCutting\src\test\resources
+2024-10-24 08:12:37,692 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 08:12:37,694 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src to target\classes
+2024-10-24 08:12:37,695 [Worker-33: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 08:12:37,696 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\CrossCutting\src\test\resources
+2024-10-24 08:24:42,914 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 08:24:42,916 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src to target\classes
+2024-10-24 08:24:42,918 [Worker-47: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 08:24:42,918 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\CrossCutting\src\test\resources
+2024-10-24 08:37:30,311 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 08:37:30,316 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src to target\classes
+2024-10-24 08:37:30,319 [Worker-49: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 08:37:30,320 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\CrossCutting\src\test\resources
+2024-10-24 08:51:22,420 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-24 08:51:27,030 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-24 22:54:40,155 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-24 22:54:45,175 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-24 23:29:43,934 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-24 23:29:48,273 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-24 23:34:17,588 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 23:34:17,592 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src to target\classes
+2024-10-24 23:34:17,597 [Worker-6: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-24 23:34:17,597 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\CrossCutting\src\test\resources
+2024-10-24 23:34:18,383 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-24 23:34:18,404 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-24 23:34:18,409 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-24 23:45:22,545 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-24 23:45:22,557 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-24 23:45:22,561 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-24 23:46:00,954 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-24 23:46:00,959 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-24 23:46:00,963 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-24 23:46:12,575 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-24 23:46:12,581 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-24 23:46:12,585 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-25 06:38:20,572 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-25 06:38:24,105 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-29 17:19:39,772 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-29 17:19:43,689 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-29 17:20:48,074 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-29 17:20:48,081 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src to target\classes
+2024-10-29 17:20:48,087 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-29 17:20:48,087 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\CrossCutting\src\test\resources
+2024-10-29 17:20:48,882 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:20:48,898 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:20:48,902 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:21:32,633 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:21:32,636 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:21:32,638 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:21:51,978 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:21:51,982 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:21:51,985 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:22:24,394 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:22:24,398 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:22:24,400 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:22:41,864 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:22:41,867 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:22:41,869 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:22:54,550 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:22:54,555 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:22:54,556 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:26:46,584 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:26:46,590 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:26:46,592 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:27:16,441 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:27:16,447 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:27:16,448 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:27:22,649 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:27:22,652 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:27:22,655 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:27:33,695 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:27:33,699 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:27:33,701 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:27:47,394 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:27:47,398 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:27:47,400 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:28:45,755 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:28:45,759 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:28:45,761 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:28:50,400 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:28:50,404 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:28:50,406 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:29:15,083 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:29:15,087 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:29:15,090 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:29:31,179 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:29:31,183 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:29:31,185 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:29:35,779 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:29:35,782 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:29:35,785 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:29:52,441 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:29:52,444 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:29:52,446 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:31:27,686 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:31:27,689 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:31:27,691 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:31:40,870 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:31:40,873 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:31:40,875 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:31:46,020 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:31:46,024 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:31:46,026 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:31:50,013 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:31:50,017 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:31:50,019 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:32:02,972 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:32:02,976 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:32:02,978 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:32:11,904 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:32:11,908 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:32:11,909 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:32:38,597 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:32:38,607 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:32:38,609 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:32:48,669 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:32:48,675 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:32:48,676 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:33:15,891 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:33:15,896 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:33:15,898 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:33:49,761 [Worker-21: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:33:49,769 [Worker-21: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:33:49,773 [Worker-21: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:33:54,076 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:33:54,082 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:33:54,084 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:33:58,071 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:33:58,075 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:33:58,077 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:34:14,235 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:34:14,240 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:34:14,242 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:35:37,463 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:35:37,467 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:35:37,469 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:36:22,976 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:36:22,980 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:36:22,983 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:41:28,241 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:41:28,244 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:41:28,245 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-29 17:41:36,244 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-29 17:41:36,248 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-29 17:41:36,250 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
