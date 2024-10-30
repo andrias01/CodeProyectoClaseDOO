@@ -72,15 +72,4 @@ public class TextCopied {
         }
         return number < 0;
     }
-//    
-//    public static void main(String[] args) {
-//    	Double num1 = NumericHelper.parseNumber("4.6");
-//        Double num2 = NumericHelper.parseNumber("10.0");
-//
-//        System.out.println("¿Es mayor "+num1+" que " +num2+" ?: " + NumericHelper.isGreaterThan(num1, num2));
-//        System.out.println("¿Son iguales "+num1+" y "+num2+" ?: " + NumericHelper.areEqual(num1, num2));
-//        System.out.println("¿Está el número " +num1+" en el rango (4.5, 9.5]?: " + NumericHelper.isInRange(num1, 4.5, false, 9.5, true));
-//        System.out.println("¿Es positivo " +num1+" ?: " + NumericHelper.isPositive(num1));
-//	}
-
 }

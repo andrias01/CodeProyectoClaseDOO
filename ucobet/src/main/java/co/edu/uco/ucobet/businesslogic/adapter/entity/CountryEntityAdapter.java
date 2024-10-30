@@ -1,7 +1,8 @@
 package co.edu.uco.ucobet.businesslogic.adapter.entity;
 
-import co.edu.uco.crosscutting.helpers.ObjectHelper;
+import java.util.List;
 
+import co.edu.uco.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.crosscutting.helpers.TextHelper;
 import co.edu.uco.crosscutting.helpers.UUIDHelper;
 import co.edu.uco.ucobet.businesslogic.adapter.Adapter;
@@ -9,19 +10,26 @@ import co.edu.uco.ucobet.domain.CountryDomain;
 import co.edu.uco.ucobet.entity.CountryEntity;
 
 
-public class CountryEntityAdapter implements Adapter<CountryEntity,CountryDomain>{
+public class CountryEntityAdapter implements Adapter<CountryDomain, CountryEntity>{
 	
-	private static final Adapter<CountryEntity,CountryDomain> instance = new CountryEntityAdapter();
+	private static final Adapter<CountryDomain, CountryEntity> instance = new CountryEntityAdapter();
 	
 	private CountryEntityAdapter() {
 		
 	}
-	public static Adapter<CountryEntity,CountryDomain> getCountryEntityAdapter(){
+	
+	public static Adapter<CountryDomain, CountryEntity> getCountryEntityAdapter(){
 		return instance;
 	}
 
 	@Override
-	public CountryEntity adaptSource(CountryDomain data) {
+	public CountryDomain adaptSource(CountryEntity data) {
+		var entityToAdapt = ObjectHelper.getDefault(data, new CountryEntity());
+		return CountryDomain.create(entityToAdapt.getId(), entityToAdapt.getName());
+	}
+
+	@Override
+	public CountryEntity adaptTarget(CountryDomain data) {
 		var domainToAdapt = ObjectHelper.getDefault(data, CountryDomain.create(UUIDHelper.getDefault(), TextHelper.EMPTY));
 		
 		var entityToAdapt = new CountryEntity();
@@ -32,9 +40,9 @@ public class CountryEntityAdapter implements Adapter<CountryEntity,CountryDomain
 	}
 
 	@Override
-	public CountryDomain adaptTarget(CountryEntity data) {
-		var entityToAdapt = ObjectHelper.getDefault(data, new CountryEntity());
-		return CountryDomain.create(entityToAdapt.getId(), entityToAdapt.getName());
+	public List<CountryEntity> adaptTarget(List<CountryDomain> data) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 

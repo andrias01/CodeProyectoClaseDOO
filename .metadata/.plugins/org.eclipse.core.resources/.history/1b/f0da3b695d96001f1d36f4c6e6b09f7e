@@ -1,0 +1,5 @@
+package co.edu.uco.ucobet.businesslogic.usecase.state.rules;
+
+public interface StateExists {
+
+}

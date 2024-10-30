@@ -1,6 +1,6 @@
 package co.edu.uco.ucobet.data.dao.enums;
 
-public enum DAOsource {
+public enum DAOSource {
 	
 	SQLSERVER, MYSQL, ORACLE, POSTGRESQL, XYZ
 
