@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.SqlConnectionHelper"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.impl.sqlserver.StateSqlServerDAO"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.impl.sql.SqlDAO"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.dto.CountryDTO"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.CountryDAO"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.usecase.UseWithReturn"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.usecase.UseWithoutReturn"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.usecase.city.RegisterNewCity"/>
-    <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.usecase.city.UpdateCity"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.adapter.Adapter"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.adapter.entity.CityEntityAdapter"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.entity.CountryEntity"/>
@@ -38,8 +24,6 @@
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.usecase.city.rules.impl.CityNameDoesNotExistsForStateImpl"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.usecase.state.rules.StateExists"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.usecase.state.rules.impl.StateExistsImpl"/>
-    <fullyQualifiedTypeName name="java.util.UUID"/>
-    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.UUIDHelper"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.domain.CityDomain"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.usecase.RuleWithoutFactory"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.businesslogic.facade.FacedeWithoutReturn"/>
@@ -60,4 +44,20 @@
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.data.dao.impl.sqlserver.SqlServerDAOFactory"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.crosscutting.exceptions.BusinessLogicUcoBetException"/>
     <fullyQualifiedTypeName name="co.edu.uco.ucobet.domain.StateDomain"/>
+    <fullyQualifiedTypeName name="jakarta.el.ArrayELResolver"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.helpers.UUIDHelper"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.initializer.repository.CityRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="co.edu.uco.ucobet.initializer.domain.City"/>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
 </qualifiedTypeNameHistroy>

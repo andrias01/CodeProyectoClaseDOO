@@ -1,0 +1,21 @@
+package co.edu.uco.ucobet.initializer.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
+
+import co.edu.uco.crosscutting.helpers.UUIDHelper;
+import co.edu.uco.ucobet.initializer.domain.City;
+
+
+public class CityRepository {
+	private List<City> cities;
+	
+	public CityRepository() {
+		this.cities = new ArrayList<>();
+		
+		this.cities.add("Medellin",UUIDHelper.generate());
+		this.cities.add("Bogota",UUIDHelper.generate());
+		this.cities.add("Cali",UUIDHelper.generate());
+	}
+}

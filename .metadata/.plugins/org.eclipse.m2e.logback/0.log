@@ -2602,3 +2602,91 @@
 2024-10-30 11:13:56,406 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-10-30 11:13:56,423 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-10-30 11:13:56,431 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 11:30:20,668 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-30 11:30:26,963 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-30 12:17:29,415 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:17:29,461 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:17:29,471 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:19:31,114 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:19:31,125 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:19:31,130 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:20:31,160 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:20:31,193 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:20:31,201 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:24:48,988 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:24:49,005 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:24:49,011 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:29:10,529 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:29:10,538 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:29:10,541 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:33:53,716 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:33:53,723 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:33:53,727 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:33:54,959 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:33:54,967 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:33:54,971 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:33:57,169 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:33:57,189 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:33:57,195 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:35:23,531 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:35:23,561 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:35:23,576 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:35:45,079 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-30 12:35:50,017 [SonarLint Client RPC request executor] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2024-10-30 12:43:44,715 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:43:44,734 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:43:44,740 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:45:46,380 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:45:46,401 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:45:46,410 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:57:27,394 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:57:27,403 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:57:27,406 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:57:39,074 [Worker-10: Launching ucobet - UcobetApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 12:57:39,082 [Worker-10: Launching ucobet - UcobetApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 12:57:39,086 [Worker-10: Launching ucobet - UcobetApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 12:57:39,235 [Worker-10: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 12:57:39,305 [Worker-10: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 12:57:39,379 [Worker-10: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:09:21,948 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 13:09:21,957 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 13:09:21,962 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 13:12:14,059 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 13:12:14,075 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 13:12:14,081 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 13:28:49,782 [Worker-32: Launching ucobet - UcobetApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 13:28:49,794 [Worker-32: Launching ucobet - UcobetApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 13:28:49,801 [Worker-32: Launching ucobet - UcobetApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 13:28:49,965 [Worker-32: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:28:50,010 [Worker-32: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:28:50,065 [Worker-32: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:30:51,392 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 13:30:51,400 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 13:30:51,402 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 13:31:31,608 [Worker-32: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:31:31,643 [Worker-32: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:31:31,682 [Worker-32: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:32:54,504 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 13:32:54,508 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 13:32:54,510 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 13:33:03,175 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 13:33:03,180 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 13:33:03,183 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 13:33:40,149 [Worker-41: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:33:40,186 [Worker-41: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:33:40,223 [Worker-41: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:50:58,974 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 13:50:58,992 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 13:50:58,996 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 13:51:04,413 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 13:51:04,417 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 13:51:04,419 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 13:53:54,811 [Worker-42: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:53:54,850 [Worker-42: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:53:54,887 [Worker-42: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:58:56,170 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-10-30 13:58:56,177 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-30 13:58:56,179 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\andre\Documents\DOO 2024 BD\TrabajoConEclipse\EspacioDeTrabajo\ucobet\src\test\resources
+2024-10-30 13:59:35,738 [Worker-42: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:59:35,777 [Worker-42: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
+2024-10-30 13:59:35,816 [Worker-42: Launching ucobet - UcobetApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: CrossCutting:CrossCutting:0.0.1-SNAPSHOT with classifier null to /CrossCutting/target/classes
