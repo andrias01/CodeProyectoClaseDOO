@@ -1,0 +1,63 @@
+package co.edu.uco.ucobet.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import co.edu.uco.ucobet.controller.response.GenerateResponse;
+import co.edu.uco.ucobet.controller.response.concrete.CityResponse;
+import co.edu.uco.ucobet.controller.response.concrete.GenericResponse;
+import co.edu.uco.ucobet.dto.CityDTO;
+
+@RestController
+@RequestMapping("/api/v1/cities")
+public final class CityController {
+
+	@GetMapping("/dummy")
+	public CityDTO getDummy() {
+		return CityDTO.create();
+	}
+	@PostMapping
+	public ResponseEntity<GenericResponse> create(@RequestBody CityDTO city) {
+		var messages = new ArrayList<String>();
+		messages.add("La ciudad se registró de manera satisfactoria");
+		return GenerateResponse.genetareSuccessResponse(messages);
+	}
+	
+	@PutMapping("/{id}")
+	public ResponseEntity<GenericResponse> update(@PathVariable String id,@RequestBody CityDTO city) {
+		var messages = new ArrayList<String>();
+		messages.add("La ciudad se actualizó de manera satisfactoria");
+		return GenerateResponse.genetareSuccessResponse(messages);
+	}
+	
+	@DeleteMapping("/{id}")
+	public ResponseEntity<GenericResponse> delete(@PathVariable String id) {
+		var messages = new ArrayList<String>();
+		messages.add("La ciudad se eliminó de manera satisfactoria");
+		return GenerateResponse.genetareSuccessResponse(messages);
+	}
+	
+	@GetMapping
+	public ResponseEntity<CityResponse> retrieveAll() {
+		var list = new ArrayList<CityDTO>();
+		list.add(getDummy());
+		list.add(getDummy());
+		list.add(getDummy());
+		list.add(getDummy());
+		return list;
+	}
+	@GetMapping("/{id}")
+	public ResponseEntity<CityResponse> retrieveById(@PathVariable String id) {
+		return getDummy().setId(id);
+	}
+}

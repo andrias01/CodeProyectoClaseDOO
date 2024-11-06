@@ -2,6 +2,7 @@ package co.edu.uco.ucobet.data.dao.impl.sqlserver;
 
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -180,6 +181,5 @@ final class CitySqlServerDAO extends SqlDAO implements CityDAO {
 	private void createOrderBy(final StringBuilder statement) {
 	    statement.append("ORDER BY name ASC");
 	}
-
 	
 }
