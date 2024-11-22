@@ -1,0 +1,37 @@
+1730240492352	Move compilation unit
+1730240574381	Move compilation unit
+1730240836187	Move compilation unit
+1730240842413	Move compilation unit
+1730240853469	Copy compilation unit
+1730240867231	Rename type 'DeleteCity'
+1730240925528	Copy compilation unit
+1730240930243	Copy compilation unit
+1730240954913	Rename type 'FindCity'
+1730240971012	Rename type 'RegisterNewCity'
+1730240975609	Copy compilation unit
+1730240992283	Rename type 'UpdateCity'
+1730241100705	Move compilation unit
+1730241105822	Move compilation unit
+1730241109849	Move compilation unit
+1730241168507	Copy compilation unit
+1730241195731	Rename type 'DeleteCityImpl'
+1730241229718	Copy compilation unit
+1730241233911	Copy compilation unit
+1730241237645	Copy compilation unit
+1730241254066	Rename type 'FindCityImpl'
+1730241337294	Rename type 'RegisterNewCityImpl'
+1730241382782	Rename type 'UpdateCityImpl'
+1730244144687	Rename type 'rule'
+1730244939102	Delete element
+1730244944348	Delete element
+1730247284161	Rename type 'Rule'
+1730251347230	Copy compilation unit
+1730251360962	Rename type 'RegisterNewCityFacede'
+1730251586958	Delete element
+1730251593992	Delete element
+1730301818256	Delete element
+1730302039245	Rename compilation unit 'FacedeWithoutReturn.java'
+1730302070543	Rename type 'RegisterNewCityFacede'
+1730303074784	Rename type 'DAOsource'
+1730327048397	Copy compilation unit
+1730327072879	Rename type 'CityController'

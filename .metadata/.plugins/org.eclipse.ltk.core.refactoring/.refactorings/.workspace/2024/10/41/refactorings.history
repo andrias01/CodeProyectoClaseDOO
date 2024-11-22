@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from workspace&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     CrossCutting/src/co.edu.uco.ucobet.domain&#x0D;&#x0A;     CrossCutting/src/co.edu.uco.ucobet.dto&#x0D;&#x0A;     CrossCutting/src/co.edu.uco.ucobet.entity&#x0D;&#x0A;     co.edu.uco.ucobet.domain.CityDomain.java" description="Delete elements" element1="=ucobet/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;co.edu.uco.ucobet.domain{CityDomain.java" element2="=CrossCutting/src&lt;co.edu.uco.ucobet.entity" element3="=CrossCutting/src&lt;co.edu.uco.ucobet" element4="=CrossCutting/src&lt;co.edu.uco.ucobet.dto" element5="=CrossCutting/src&lt;co.edu.uco.ucobet.domain" elements="5" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1728435041113" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,8 @@
+package co.edu.uco.ucobet.controller.response.concrete;
+
+import co.edu.uco.ucobet.controller.response.ResponseWithData;
+import co.edu.uco.ucobet.dto.CityDTO;
+
+public final class CityResponse extends ResponseWithData<CityDTO>{
+
+}
